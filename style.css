@@ -6,10 +6,11 @@ body{
 }
 h1{
     font-size: 50px;
-    font-weight: 300;
+    font-weight: 700;
 }
 h3{
-    font-size: 22px;;
+    font-size: 22px;
+    font-weight: 500;
 }
 img{
     width: 100%;
@@ -23,6 +24,7 @@ img{
 .hero-section{
     background-image: url('img/top-banner.png');
     background-repeat: no-repeat;
+    
 }
 .hero-section div{
     width: 50%;
@@ -38,4 +40,21 @@ a.myBtn{
     background-image: linear-gradient(tomato,orange);
     padding: 10px 50px;
     border-radius: 5px;
+}
+/*Big dream section*/
+
+.bigDream-section{
+    background-image: url('img/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.bigDream-section div{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.bigDream-section div p{
+    padding-right: 90px;
 }
